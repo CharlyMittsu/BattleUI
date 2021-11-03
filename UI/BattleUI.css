@@ -1,0 +1,63 @@
+body{
+	background-image: url("battleback1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Time New Roman, serif;
+	overflow:hidden;
+}
+.Perso{
+	display: flex;
+	border: 1px solid black;
+
+	position: fixed;
+	left: 69%;
+	right: 1%;
+	top: 80%;
+	bottom: 2%;
+	background: red;
+	box-shadow: 3px 3px 10px #000000;
+	border-radius:5px;
+	
+}
+h1{
+	display : flex;
+	justify-content : center;
+}
+#Panneau{
+	justify-content: space-between;
+	
+}
+
+#Nom {
+	display : inline-block;
+	width: 100px;
+}
+#Vie {
+	display : inline-block;
+	width: 100px;
+}
+#Mana {
+	display : inline-block;
+	width: 100px;
+}
+#Statut {
+	display : inline-block;
+	width: 100px;
+}
+
+.Boss{
+	
+}
+
+/* #perso1{ */
+	/* visibility:hidden; */
+/* } */
+/* #perso2{ */
+	/* visibility:hidden; */
+/* } */
+/* #perso3{ */
+	/* visibility:hidden; */
+/* } */
+/* #perso4{ */
+	/* visibility:hidden; */
+/* } */
